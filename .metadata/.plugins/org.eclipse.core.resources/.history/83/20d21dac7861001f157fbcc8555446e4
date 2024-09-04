@@ -1,0 +1,14 @@
+#include "main.h"
+
+
+LED::LED(void) {
+    // Initialize the LED hardware
+}
+
+LED::~LED(void) {
+    // Cleanup if needed
+}
+void LED::toggle(void)
+{
+	HAL_GPIO_TogglePin(GPIOH,GPIO_PIN_1);
+}

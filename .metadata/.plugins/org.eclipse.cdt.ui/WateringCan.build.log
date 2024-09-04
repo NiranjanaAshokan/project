@@ -1,0 +1,20 @@
+08:21:36 **** Incremental Build of configuration Release for project WateringCan ****
+make -j16 all 
+arm-none-eabi-g++ "../CPP/src/main.cpp" -mcpu=cortex-m4 -std=gnu++14 -DUSE_STM32WB5M_DK -DSTM32WB5Mxx -DUSE_HAL_DRIVER -c -I../../Core/Inc -I../../NFC/ -I../../Middlewares/ST/lib_nfc/Common/inc -I../../Middlewares/ST/Gestures/GesturesDetect/Inc -I../../Middlewares/ST/lib_nfc/lib_NDEF/Core/inc -I../../NFC/Target/ -I../../Drivers/BSP/Components/ST25DV/ -I../../Drivers/BSP/Components/vl6180x -I../../STM32_WPAN/App -I../../Middlewares/ST/STM32_WPAN/ble -I../../Core/Src/vl53l0x -I../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../../Utilities/lpm/tiny_lpm -I../../Middlewares/ST/STM32_WPAN -I../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread -I../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/tl -I../../Middlewares/ST/STM32_WPAN/interface/patterns/ble_thread/shci -I../../Middlewares/ST/STM32_WPAN/utilities -I../../Middlewares/ST/STM32_WPAN/ble/core -I../../Middlewares/ST/STM32_WPAN/ble/core/auto -I../../Middlewares/ST/STM32_WPAN/ble/core/template -I../../Middlewares/ST/STM32_WPAN/ble/svc/Inc -I../../Middlewares/ST/STM32_WPAN/ble/svc/Src -I../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../Utilities/sequencer -I../../Drivers/CMSIS/Include -I../../Drivers/BSP/STM32WB5MM-DK -I../../Drivers/BSP/Components/ssd1315 -I../../Drivers/BSP/Components/Common -I../../Utilities/Fonts -I../../Utilities/LCD -I../../Drivers/BSP/Components/ism330dhcx -I../../Drivers/BSP/Components/stts22h -I../../Drivers/BSP/Components/s25fl128s -I"C:/Users/niran.asokan/Desktop/personal/New folder/projects/Github/demo_1/capstone_project1/WateringCan/STM32CubeIDE/Drivers/BSP/Components/vl6180x" -I"C:/Users/niran.asokan/Desktop/personal/New folder/projects/Github/demo_1/capstone_project1/WateringCan/STM32CubeIDE/CPP/inc" -I"C:/Users/niran.asokan/Desktop/personal/New folder/projects/Github/demo_1/capstone_project1/WateringCan/STM32CubeIDE/CPP" -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"CPP/src/main.d" -MT"CPP/src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "CPP/src/main.o"
+arm-none-eabi-g++ -o "WateringCan.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\niran.asokan\Desktop\personal\New folder\projects\Github\demo_1\capstone_project1\WateringCan\STM32CubeIDE\STM32WB5MMGHX_FLASH.ld" -Wl,-Map="WateringCan.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: WateringCan.elf
+ 
+arm-none-eabi-size   WateringCan.elf 
+arm-none-eabi-objdump -h -S  WateringCan.elf  > "WateringCan.list"
+arm-none-eabi-objcopy  -O ihex  WateringCan.elf  "WateringCan.hex"
+   text	   data	    bss	    dec	    hex	filename
+  42408	   1352	   6624	  50384	   c4d0	WateringCan.elf
+Finished building: default.size.stdout
+ 
+Finished building: WateringCan.list
+Finished building: WateringCan.hex
+ 
+ 
+
+08:21:39 Build Finished. 0 errors, 0 warnings. (took 3s.181ms)
+

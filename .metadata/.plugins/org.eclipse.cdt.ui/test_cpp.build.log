@@ -1,0 +1,903 @@
+14:18:10 **** Build of configuration Debug for project test_cpp ****
+make -j16 all 
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_cortex.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_dma_ex.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_exti.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_flash_ex.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_gpio.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_hsem.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_pwr_ex.o"
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc.o"
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_rcc_ex.o"
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim.o"
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_hal_tim_ex.o"
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+arm-none-eabi-g++ "../Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.d" -MT"Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32WBxx_HAL_Driver/Src/stm32wbxx_ll_rcc.o"
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32wb5mmghx.d" -MT"Core/Startup/startup_stm32wb5mmghx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32wb5mmghx.o" "../Core/Startup/startup_stm32wb5mmghx.s"
+arm-none-eabi-g++ "../Core/Src/led.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/led.d" -MT"Core/Src/led.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/led.o"
+arm-none-eabi-g++ "../Core/Src/main.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ "../Core/Src/stm32wbxx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32wbxx_hal_msp.d" -MT"Core/Src/stm32wbxx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_hal_msp.o"
+arm-none-eabi-g++ "../Core/Src/stm32wbxx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32wbxx_it.d" -MT"Core/Src/stm32wbxx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32wbxx_it.o"
+arm-none-eabi-g++ "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-g++ "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-g++ "../Core/Src/system_stm32wbxx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32WB5Mxx -c -I../Core/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc -I../Drivers/STM32WBxx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32wbxx.d" -MT"Core/Src/system_stm32wbxx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32wbxx.o"
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+../Core/Src/main.cpp:43:1: error: 'ADC_HandleTypeDef' does not name a type; did you mean 'DMA_HandleTypeDef'?
+   43 | ADC_HandleTypeDef hadc1;
+      | ^~~~~~~~~~~~~~~~~
+      | DMA_HandleTypeDef
+../Core/Src/main.cpp:46:1: error: 'CRC_HandleTypeDef' does not name a type; did you mean 'DMA_HandleTypeDef'?
+   46 | CRC_HandleTypeDef hcrc;
+      | ^~~~~~~~~~~~~~~~~
+      | DMA_HandleTypeDef
+../Core/Src/main.cpp:48:1: error: 'I2C_HandleTypeDef' does not name a type; did you mean 'DMA_HandleTypeDef'?
+   48 | I2C_HandleTypeDef hi2c1;
+      | ^~~~~~~~~~~~~~~~~
+      | DMA_HandleTypeDef
+../Core/Src/main.cpp:49:1: error: 'SMBUS_HandleTypeDef' does not name a type; did you mean 'DMA_HandleTypeDef'?
+   49 | SMBUS_HandleTypeDef hsmbus3;
+      | ^~~~~~~~~~~~~~~~~~~
+      | DMA_HandleTypeDef
+../Core/Src/main.cpp:51:1: error: 'IWDG_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   51 | IWDG_HandleTypeDef hiwdg;
+      | ^~~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:53:1: error: 'LPTIM_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   53 | LPTIM_HandleTypeDef hlptim1;
+      | ^~~~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:54:1: error: 'LPTIM_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   54 | LPTIM_HandleTypeDef hlptim2;
+      | ^~~~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:56:1: error: 'UART_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   56 | UART_HandleTypeDef hlpuart1;
+      | ^~~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:57:1: error: 'UART_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   57 | UART_HandleTypeDef huart1;
+      | ^~~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:60:1: error: 'QSPI_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   60 | QSPI_HandleTypeDef hqspi;
+      | ^~~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:62:1: error: 'RTC_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   62 | RTC_HandleTypeDef hrtc;
+      | ^~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:64:1: error: 'SPI_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   64 | SPI_HandleTypeDef hspi1;
+      | ^~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:65:1: error: 'SPI_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   65 | SPI_HandleTypeDef hspi2;
+      | ^~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:67:1: error: 'TIM_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   67 | TIM_HandleTypeDef htim1;
+      | ^~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:68:1: error: 'TIM_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   68 | TIM_HandleTypeDef htim2;
+      | ^~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:69:1: error: 'TIM_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   69 | TIM_HandleTypeDef htim16;
+      | ^~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:70:1: error: 'TIM_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   70 | TIM_HandleTypeDef htim17;
+      | ^~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp:72:1: error: 'PCD_HandleTypeDef' does not name a type; did you mean 'DMA_HandleTypeDef'?
+   72 | PCD_HandleTypeDef hpcd_USB_FS;
+      | ^~~~~~~~~~~~~~~~~
+      | DMA_HandleTypeDef
+../Core/Src/main.cpp:74:1: error: 'WWDG_HandleTypeDef' does not name a type; did you mean 'EXTI_HandleTypeDef'?
+   74 | WWDG_HandleTypeDef hwwdg;
+      | ^~~~~~~~~~~~~~~~~~
+      | EXTI_HandleTypeDef
+../Core/Src/main.cpp: In function 'void MX_ADC1_Init()':
+../Core/Src/main.cpp:308:3: error: 'ADC_ChannelConfTypeDef' was not declared in this scope; did you mean 'DMA_Channel_TypeDef'?
+  308 |   ADC_ChannelConfTypeDef sConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+      |   DMA_Channel_TypeDef
+../Core/Src/main.cpp:316:3: error: 'hadc1' was not declared in this scope
+  316 |   hadc1.Instance = ADC1;
+      |   ^~~~~
+../Core/Src/main.cpp:317:31: error: 'ADC_CLOCK_ASYNC_DIV6' was not declared in this scope; did you mean 'ADC_CLOCK_ASYNC'?
+  317 |   hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV6;
+      |                               ^~~~~~~~~~~~~~~~~~~~
+      |                               ADC_CLOCK_ASYNC
+../Core/Src/main.cpp:318:27: error: 'ADC_RESOLUTION_12B' was not declared in this scope; did you mean 'ADC_RESOLUTION12b'?
+  318 |   hadc1.Init.Resolution = ADC_RESOLUTION_12B;
+      |                           ^~~~~~~~~~~~~~~~~~
+      |                           ADC_RESOLUTION12b
+../Core/Src/main.cpp:319:26: error: 'ADC_DATAALIGN_RIGHT' was not declared in this scope
+  319 |   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+      |                          ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:320:29: error: 'ADC_SCAN_DISABLE' was not declared in this scope
+  320 |   hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+      |                             ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:321:29: error: 'ADC_EOC_SINGLE_CONV' was not declared in this scope; did you mean 'EOC_SINGLE_CONV'?
+  321 |   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+      |                             ^~~~~~~~~~~~~~~~~~~
+      |                             EOC_SINGLE_CONV
+../Core/Src/main.cpp:326:33: error: 'ADC_SOFTWARE_START' was not declared in this scope
+  326 |   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+      |                                 ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:327:37: error: 'ADC_EXTERNALTRIGCONVEDGE_NONE' was not declared in this scope; did you mean 'ADC_EXTERNALTRIG_EDGE_NONE'?
+  327 |   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+      |                                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                     ADC_EXTERNALTRIG_EDGE_NONE
+../Core/Src/main.cpp:329:24: error: 'ADC_OVR_DATA_PRESERVED' was not declared in this scope; did you mean 'OVR_DATA_PRESERVED'?
+  329 |   hadc1.Init.Overrun = ADC_OVR_DATA_PRESERVED;
+      |                        ^~~~~~~~~~~~~~~~~~~~~~
+      |                        OVR_DATA_PRESERVED
+../Core/Src/main.cpp:331:7: error: 'HAL_ADC_Init' was not declared in this scope; did you mean 'HAL_DeInit'?
+  331 |   if (HAL_ADC_Init(&hadc1) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_DeInit
+../Core/Src/main.cpp:338:3: error: 'sConfig' was not declared in this scope
+  338 |   sConfig.Channel = ADC_CHANNEL_2;
+      |   ^~~~~~~
+../Core/Src/main.cpp:338:21: error: 'ADC_CHANNEL_2' was not declared in this scope; did you mean 'DAC1_CHANNEL_2'?
+  338 |   sConfig.Channel = ADC_CHANNEL_2;
+      |                     ^~~~~~~~~~~~~
+      |                     DAC1_CHANNEL_2
+../Core/Src/main.cpp:339:18: error: 'ADC_REGULAR_RANK_1' was not declared in this scope
+  339 |   sConfig.Rank = ADC_REGULAR_RANK_1;
+      |                  ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:340:26: error: 'ADC_SAMPLETIME_2CYCLES_5' was not declared in this scope; did you mean 'ADC_SAMPLETIME_2CYCLE_5'?
+  340 |   sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                          ADC_SAMPLETIME_2CYCLE_5
+../Core/Src/main.cpp:341:24: error: 'ADC_SINGLE_ENDED' was not declared in this scope
+  341 |   sConfig.SingleDiff = ADC_SINGLE_ENDED;
+      |                        ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:342:26: error: 'ADC_OFFSET_NONE' was not declared in this scope
+  342 |   sConfig.OffsetNumber = ADC_OFFSET_NONE;
+      |                          ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:344:7: error: 'HAL_ADC_ConfigChannel' was not declared in this scope
+  344 |   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp: In function 'void MX_CRC_Init()':
+../Core/Src/main.cpp:369:3: error: 'hcrc' was not declared in this scope
+  369 |   hcrc.Instance = CRC;
+      |   ^~~~
+../Core/Src/main.cpp:370:36: error: 'DEFAULT_POLYNOMIAL_ENABLE' was not declared in this scope
+  370 |   hcrc.Init.DefaultPolynomialUse = DEFAULT_POLYNOMIAL_ENABLE;
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:371:35: error: 'DEFAULT_INIT_VALUE_ENABLE' was not declared in this scope
+  371 |   hcrc.Init.DefaultInitValueUse = DEFAULT_INIT_VALUE_ENABLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:372:38: error: 'CRC_INPUTDATA_INVERSION_NONE' was not declared in this scope; did you mean 'CRC_OUTPUTDATA_INVERSION_ENABLED'?
+  372 |   hcrc.Init.InputDataInversionMode = CRC_INPUTDATA_INVERSION_NONE;
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                      CRC_OUTPUTDATA_INVERSION_ENABLED
+../Core/Src/main.cpp:373:39: error: 'CRC_OUTPUTDATA_INVERSION_DISABLE' was not declared in this scope; did you mean 'CRC_OUTPUTDATA_INVERSION_DISABLED'?
+  373 |   hcrc.Init.OutputDataInversionMode = CRC_OUTPUTDATA_INVERSION_DISABLE;
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                       CRC_OUTPUTDATA_INVERSION_DISABLED
+../Core/Src/main.cpp:374:26: error: 'CRC_INPUTDATA_FORMAT_BYTES' was not declared in this scope
+  374 |   hcrc.InputDataFormat = CRC_INPUTDATA_FORMAT_BYTES;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:375:7: error: 'HAL_CRC_Init' was not declared in this scope; did you mean 'MX_CRC_Init'?
+  375 |   if (HAL_CRC_Init(&hcrc) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       MX_CRC_Init
+../Core/Src/main.cpp: In function 'void MX_I2C1_Init()':
+../Core/Src/main.cpp:400:3: error: 'hi2c1' was not declared in this scope
+  400 |   hi2c1.Instance = I2C1;
+      |   ^~~~~
+../Core/Src/main.cpp:403:31: error: 'I2C_ADDRESSINGMODE_7BIT' was not declared in this scope
+  403 |   hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:404:32: error: 'I2C_DUALADDRESS_DISABLE' was not declared in this scope; did you mean 'I2C_DUALADDRESS_DISABLED'?
+  404 |   hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                I2C_DUALADDRESS_DISABLED
+../Core/Src/main.cpp:406:33: error: 'I2C_OA2_NOMASK' was not declared in this scope; did you mean 'I2C_OAR2_OA2NOMASK'?
+  406 |   hi2c1.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
+      |                                 ^~~~~~~~~~~~~~
+      |                                 I2C_OAR2_OA2NOMASK
+../Core/Src/main.cpp:407:32: error: 'I2C_GENERALCALL_DISABLE' was not declared in this scope; did you mean 'I2C_GENERALCALL_DISABLED'?
+  407 |   hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                I2C_GENERALCALL_DISABLED
+../Core/Src/main.cpp:408:30: error: 'I2C_NOSTRETCH_DISABLE' was not declared in this scope; did you mean 'I2C_NOSTRETCH_DISABLED'?
+  408 |   hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+      |                              ^~~~~~~~~~~~~~~~~~~~~
+      |                              I2C_NOSTRETCH_DISABLED
+../Core/Src/main.cpp:409:7: error: 'HAL_I2C_Init' was not declared in this scope; did you mean 'HAL_DMA_Init'?
+  409 |   if (HAL_I2C_Init(&hi2c1) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_DMA_Init
+../Core/Src/main.cpp:416:44: error: 'I2C_ANALOGFILTER_ENABLE' was not declared in this scope; did you mean 'I2C_ANALOGFILTER_ENABLED'?
+  416 |   if (HAL_I2CEx_ConfigAnalogFilter(&hi2c1, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                            I2C_ANALOGFILTER_ENABLED
+../Core/Src/main.cpp:416:7: error: 'HAL_I2CEx_ConfigAnalogFilter' was not declared in this scope
+  416 |   if (HAL_I2CEx_ConfigAnalogFilter(&hi2c1, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:423:7: error: 'HAL_I2CEx_ConfigDigitalFilter' was not declared in this scope
+  423 |   if (HAL_I2CEx_ConfigDigitalFilter(&hi2c1, 0) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp: In function 'void MX_I2C3_SMBUS_Init()':
+../Core/Src/main.cpp:448:3: error: 'hsmbus3' was not declared in this scope
+  448 |   hsmbus3.Instance = I2C3;
+      |   ^~~~~~~
+../Core/Src/main.cpp:450:31: error: 'SMBUS_ANALOGFILTER_ENABLE' was not declared in this scope; did you mean 'SMBUS_ANALOGFILTER_ENABLED'?
+  450 |   hsmbus3.Init.AnalogFilter = SMBUS_ANALOGFILTER_ENABLE;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               SMBUS_ANALOGFILTER_ENABLED
+../Core/Src/main.cpp:452:33: error: 'SMBUS_ADDRESSINGMODE_7BIT' was not declared in this scope
+  452 |   hsmbus3.Init.AddressingMode = SMBUS_ADDRESSINGMODE_7BIT;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:453:34: error: 'SMBUS_DUALADDRESS_DISABLE' was not declared in this scope; did you mean 'SMBUS_DUALADDRESS_DISABLED'?
+  453 |   hsmbus3.Init.DualAddressMode = SMBUS_DUALADDRESS_DISABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  SMBUS_DUALADDRESS_DISABLED
+../Core/Src/main.cpp:455:35: error: 'SMBUS_OA2_NOMASK' was not declared in this scope
+  455 |   hsmbus3.Init.OwnAddress2Masks = SMBUS_OA2_NOMASK;
+      |                                   ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:456:34: error: 'SMBUS_GENERALCALL_DISABLE' was not declared in this scope; did you mean 'SMBUS_GENERALCALL_DISABLED'?
+  456 |   hsmbus3.Init.GeneralCallMode = SMBUS_GENERALCALL_DISABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  SMBUS_GENERALCALL_DISABLED
+../Core/Src/main.cpp:457:32: error: 'SMBUS_NOSTRETCH_DISABLE' was not declared in this scope; did you mean 'SMBUS_NOSTRETCH_DISABLED'?
+  457 |   hsmbus3.Init.NoStretchMode = SMBUS_NOSTRETCH_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~
+      |                                SMBUS_NOSTRETCH_DISABLED
+../Core/Src/main.cpp:458:39: error: 'SMBUS_PEC_DISABLE' was not declared in this scope; did you mean 'SMBUS_PEC_DISABLED'?
+  458 |   hsmbus3.Init.PacketErrorCheckMode = SMBUS_PEC_DISABLE;
+      |                                       ^~~~~~~~~~~~~~~~~
+      |                                       SMBUS_PEC_DISABLED
+../Core/Src/main.cpp:459:33: error: 'SMBUS_PERIPHERAL_MODE_SMBUS_SLAVE' was not declared in this scope
+  459 |   hsmbus3.Init.PeripheralMode = SMBUS_PERIPHERAL_MODE_SMBUS_SLAVE;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:461:7: error: 'HAL_SMBUS_Init' was not declared in this scope; did you mean 'HAL_DMA_Init'?
+  461 |   if (HAL_SMBUS_Init(&hsmbus3) != HAL_OK)
+      |       ^~~~~~~~~~~~~~
+      |       HAL_DMA_Init
+../Core/Src/main.cpp: In function 'void MX_IWDG_Init()':
+../Core/Src/main.cpp:486:3: error: 'hiwdg' was not declared in this scope
+  486 |   hiwdg.Instance = IWDG;
+      |   ^~~~~
+../Core/Src/main.cpp:487:26: error: 'IWDG_PRESCALER_4' was not declared in this scope
+  487 |   hiwdg.Init.Prescaler = IWDG_PRESCALER_4;
+      |                          ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:490:7: error: 'HAL_IWDG_Init' was not declared in this scope; did you mean 'MX_IWDG_Init'?
+  490 |   if (HAL_IWDG_Init(&hiwdg) != HAL_OK)
+      |       ^~~~~~~~~~~~~
+      |       MX_IWDG_Init
+../Core/Src/main.cpp: In function 'void MX_LPTIM1_Init()':
+../Core/Src/main.cpp:515:3: error: 'hlptim1' was not declared in this scope
+  515 |   hlptim1.Instance = LPTIM1;
+      |   ^~~~~~~
+../Core/Src/main.cpp:516:31: error: 'LPTIM_CLOCKSOURCE_APBCLOCK_LPOSC' was not declared in this scope
+  516 |   hlptim1.Init.Clock.Source = LPTIM_CLOCKSOURCE_APBCLOCK_LPOSC;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:517:34: error: 'LPTIM_PRESCALER_DIV1' was not declared in this scope
+  517 |   hlptim1.Init.Clock.Prescaler = LPTIM_PRESCALER_DIV1;
+      |                                  ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:518:33: error: 'LPTIM_TRIGSOURCE_SOFTWARE' was not declared in this scope
+  518 |   hlptim1.Init.Trigger.Source = LPTIM_TRIGSOURCE_SOFTWARE;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:519:33: error: 'LPTIM_OUTPUTPOLARITY_HIGH' was not declared in this scope
+  519 |   hlptim1.Init.OutputPolarity = LPTIM_OUTPUTPOLARITY_HIGH;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:520:29: error: 'LPTIM_UPDATE_IMMEDIATE' was not declared in this scope
+  520 |   hlptim1.Init.UpdateMode = LPTIM_UPDATE_IMMEDIATE;
+      |                             ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:521:32: error: 'LPTIM_COUNTERSOURCE_INTERNAL' was not declared in this scope
+  521 |   hlptim1.Init.CounterSource = LPTIM_COUNTERSOURCE_INTERNAL;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:522:31: error: 'LPTIM_INPUT1SOURCE_GPIO' was not declared in this scope
+  522 |   hlptim1.Init.Input1Source = LPTIM_INPUT1SOURCE_GPIO;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:523:31: error: 'LPTIM_INPUT2SOURCE_GPIO' was not declared in this scope
+  523 |   hlptim1.Init.Input2Source = LPTIM_INPUT2SOURCE_GPIO;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:524:7: error: 'HAL_LPTIM_Init' was not declared in this scope; did you mean 'HAL_GPIO_Init'?
+  524 |   if (HAL_LPTIM_Init(&hlptim1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~
+      |       HAL_GPIO_Init
+../Core/Src/main.cpp: In function 'void MX_LPTIM2_Init()':
+../Core/Src/main.cpp:549:3: error: 'hlptim2' was not declared in this scope
+  549 |   hlptim2.Instance = LPTIM2;
+      |   ^~~~~~~
+../Core/Src/main.cpp:550:31: error: 'LPTIM_CLOCKSOURCE_APBCLOCK_LPOSC' was not declared in this scope
+  550 |   hlptim2.Init.Clock.Source = LPTIM_CLOCKSOURCE_APBCLOCK_LPOSC;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:551:34: error: 'LPTIM_PRESCALER_DIV1' was not declared in this scope
+  551 |   hlptim2.Init.Clock.Prescaler = LPTIM_PRESCALER_DIV1;
+      |                                  ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:552:46: error: 'LPTIM_CLOCKPOLARITY_FALLING' was not declared in this scope; did you mean 'LPTIM_CLOCKPOLARITY_FALLINGEDGE'?
+  552 |   hlptim2.Init.UltraLowPowerClock.Polarity = LPTIM_CLOCKPOLARITY_FALLING;
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                              LPTIM_CLOCKPOLARITY_FALLINGEDGE
+../Core/Src/main.cpp:553:48: error: 'LPTIM_CLOCKSAMPLETIME_2TRANSITIONS' was not declared in this scope; did you mean 'LPTIM_CLOCKSAMPLETIME_2TRANSISTIONS'?
+  553 |   hlptim2.Init.UltraLowPowerClock.SampleTime = LPTIM_CLOCKSAMPLETIME_2TRANSITIONS;
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                LPTIM_CLOCKSAMPLETIME_2TRANSISTIONS
+../Core/Src/main.cpp:554:33: error: 'LPTIM_TRIGSOURCE_SOFTWARE' was not declared in this scope
+  554 |   hlptim2.Init.Trigger.Source = LPTIM_TRIGSOURCE_SOFTWARE;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:555:33: error: 'LPTIM_OUTPUTPOLARITY_HIGH' was not declared in this scope
+  555 |   hlptim2.Init.OutputPolarity = LPTIM_OUTPUTPOLARITY_HIGH;
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:556:29: error: 'LPTIM_UPDATE_IMMEDIATE' was not declared in this scope
+  556 |   hlptim2.Init.UpdateMode = LPTIM_UPDATE_IMMEDIATE;
+      |                             ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:557:32: error: 'LPTIM_COUNTERSOURCE_EXTERNAL' was not declared in this scope
+  557 |   hlptim2.Init.CounterSource = LPTIM_COUNTERSOURCE_EXTERNAL;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:558:31: error: 'LPTIM_INPUT1SOURCE_COMP2' was not declared in this scope
+  558 |   hlptim2.Init.Input1Source = LPTIM_INPUT1SOURCE_COMP2;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:559:31: error: 'LPTIM_INPUT2SOURCE_GPIO' was not declared in this scope
+  559 |   hlptim2.Init.Input2Source = LPTIM_INPUT2SOURCE_GPIO;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:560:7: error: 'HAL_LPTIM_Init' was not declared in this scope; did you mean 'HAL_GPIO_Init'?
+  560 |   if (HAL_LPTIM_Init(&hlptim2) != HAL_OK)
+      |       ^~~~~~~~~~~~~~
+      |       HAL_GPIO_Init
+../Core/Src/main.cpp: In function 'void MX_LPUART1_UART_Init()':
+../Core/Src/main.cpp:585:3: error: 'hlpuart1' was not declared in this scope
+  585 |   hlpuart1.Instance = LPUART1;
+      |   ^~~~~~~~
+../Core/Src/main.cpp:587:30: error: 'UART_WORDLENGTH_8B' was not declared in this scope
+  587 |   hlpuart1.Init.WordLength = UART_WORDLENGTH_8B;
+      |                              ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:588:28: error: 'UART_STOPBITS_1' was not declared in this scope
+  588 |   hlpuart1.Init.StopBits = UART_STOPBITS_1;
+      |                            ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:589:26: error: 'UART_PARITY_NONE' was not declared in this scope
+  589 |   hlpuart1.Init.Parity = UART_PARITY_NONE;
+      |                          ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:590:24: error: 'UART_MODE_TX_RX' was not declared in this scope
+  590 |   hlpuart1.Init.Mode = UART_MODE_TX_RX;
+      |                        ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:591:29: error: 'UART_HWCONTROL_NONE' was not declared in this scope
+  591 |   hlpuart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |                             ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:592:34: error: 'UART_ONE_BIT_SAMPLE_DISABLE' was not declared in this scope; did you mean 'UART_ONE_BIT_SAMPLE_DISABLED'?
+  592 |   hlpuart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                  UART_ONE_BIT_SAMPLE_DISABLED
+../Core/Src/main.cpp:593:34: error: 'UART_PRESCALER_DIV1' was not declared in this scope
+  593 |   hlpuart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+      |                                  ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:594:42: error: 'UART_ADVFEATURE_NO_INIT' was not declared in this scope
+  594 |   hlpuart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:595:23: error: 'UART_FIFOMODE_DISABLE' was not declared in this scope
+  595 |   hlpuart1.FifoMode = UART_FIFOMODE_DISABLE;
+      |                       ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:596:7: error: 'HAL_UART_Init' was not declared in this scope; did you mean 'HAL_GPIO_Init'?
+  596 |   if (HAL_UART_Init(&hlpuart1) != HAL_OK)
+      |       ^~~~~~~~~~~~~
+      |       HAL_GPIO_Init
+../Core/Src/main.cpp:600:48: error: 'UART_TXFIFO_THRESHOLD_1_8' was not declared in this scope
+  600 |   if (HAL_UARTEx_SetTxFifoThreshold(&hlpuart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:600:7: error: 'HAL_UARTEx_SetTxFifoThreshold' was not declared in this scope
+  600 |   if (HAL_UARTEx_SetTxFifoThreshold(&hlpuart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:604:48: error: 'UART_RXFIFO_THRESHOLD_1_8' was not declared in this scope
+  604 |   if (HAL_UARTEx_SetRxFifoThreshold(&hlpuart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |                                                ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:604:7: error: 'HAL_UARTEx_SetRxFifoThreshold' was not declared in this scope
+  604 |   if (HAL_UARTEx_SetRxFifoThreshold(&hlpuart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:608:7: error: 'HAL_UARTEx_DisableFifoMode' was not declared in this scope
+  608 |   if (HAL_UARTEx_DisableFifoMode(&hlpuart1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp: In function 'void MX_USART1_UART_Init()':
+../Core/Src/main.cpp:633:3: error: 'huart1' was not declared in this scope
+  633 |   huart1.Instance = USART1;
+      |   ^~~~~~
+../Core/Src/main.cpp:635:28: error: 'UART_WORDLENGTH_8B' was not declared in this scope
+  635 |   huart1.Init.WordLength = UART_WORDLENGTH_8B;
+      |                            ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:636:26: error: 'UART_STOPBITS_1' was not declared in this scope
+  636 |   huart1.Init.StopBits = UART_STOPBITS_1;
+      |                          ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:637:24: error: 'UART_PARITY_NONE' was not declared in this scope
+  637 |   huart1.Init.Parity = UART_PARITY_NONE;
+      |                        ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:638:22: error: 'UART_MODE_TX_RX' was not declared in this scope
+  638 |   huart1.Init.Mode = UART_MODE_TX_RX;
+      |                      ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:639:27: error: 'UART_HWCONTROL_NONE' was not declared in this scope
+  639 |   huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+      |                           ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:640:30: error: 'UART_OVERSAMPLING_16' was not declared in this scope
+  640 |   huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+      |                              ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:641:32: error: 'UART_ONE_BIT_SAMPLE_DISABLE' was not declared in this scope; did you mean 'UART_ONE_BIT_SAMPLE_DISABLED'?
+  641 |   huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                UART_ONE_BIT_SAMPLE_DISABLED
+../Core/Src/main.cpp:642:32: error: 'UART_PRESCALER_DIV1' was not declared in this scope
+  642 |   huart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+      |                                ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:643:40: error: 'UART_ADVFEATURE_AUTOBAUDRATE_INIT' was not declared in this scope
+  643 |   huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_AUTOBAUDRATE_INIT;
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:644:44: error: 'UART_ADVFEATURE_AUTOBAUDRATE_ENABLE' was not declared in this scope
+  644 |   huart1.AdvancedInit.AutoBaudRateEnable = UART_ADVFEATURE_AUTOBAUDRATE_ENABLE;
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:645:42: error: 'UART_ADVFEATURE_AUTOBAUDRATE_ONSTARTBIT' was not declared in this scope
+  645 |   huart1.AdvancedInit.AutoBaudRateMode = UART_ADVFEATURE_AUTOBAUDRATE_ONSTARTBIT;
+      |                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:646:7: error: 'HAL_HalfDuplex_Init' was not declared in this scope
+  646 |   if (HAL_HalfDuplex_Init(&huart1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:650:46: error: 'UART_TXFIFO_THRESHOLD_1_8' was not declared in this scope
+  650 |   if (HAL_UARTEx_SetTxFifoThreshold(&huart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:650:7: error: 'HAL_UARTEx_SetTxFifoThreshold' was not declared in this scope
+  650 |   if (HAL_UARTEx_SetTxFifoThreshold(&huart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:654:46: error: 'UART_RXFIFO_THRESHOLD_1_8' was not declared in this scope
+  654 |   if (HAL_UARTEx_SetRxFifoThreshold(&huart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:654:7: error: 'HAL_UARTEx_SetRxFifoThreshold' was not declared in this scope
+  654 |   if (HAL_UARTEx_SetRxFifoThreshold(&huart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:658:7: error: 'HAL_UARTEx_DisableFifoMode' was not declared in this scope
+  658 |   if (HAL_UARTEx_DisableFifoMode(&huart1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp: In function 'void MX_QUADSPI_Init()':
+../Core/Src/main.cpp:684:3: error: 'hqspi' was not declared in this scope
+  684 |   hqspi.Instance = QUADSPI;
+      |   ^~~~~
+../Core/Src/main.cpp:687:31: error: 'QSPI_SAMPLE_SHIFTING_NONE' was not declared in this scope
+  687 |   hqspi.Init.SampleShifting = QSPI_SAMPLE_SHIFTING_NONE;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:689:35: error: 'QSPI_CS_HIGH_TIME_1_CYCLE' was not declared in this scope
+  689 |   hqspi.Init.ChipSelectHighTime = QSPI_CS_HIGH_TIME_1_CYCLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:690:26: error: 'QSPI_CLOCK_MODE_0' was not declared in this scope; did you mean 'QUADSPI_CCR_FMODE_0'?
+  690 |   hqspi.Init.ClockMode = QSPI_CLOCK_MODE_0;
+      |                          ^~~~~~~~~~~~~~~~~
+      |                          QUADSPI_CCR_FMODE_0
+../Core/Src/main.cpp:691:7: error: 'HAL_QSPI_Init' was not declared in this scope; did you mean 'HAL_GPIO_Init'?
+  691 |   if (HAL_QSPI_Init(&hqspi) != HAL_OK)
+      |       ^~~~~~~~~~~~~
+      |       HAL_GPIO_Init
+../Core/Src/main.cpp: In function 'void MX_RTC_Init()':
+../Core/Src/main.cpp:734:3: error: 'RTC_TimeTypeDef' was not declared in this scope; did you mean 'RTC_TypeDef'?
+  734 |   RTC_TimeTypeDef sTime = {0};
+      |   ^~~~~~~~~~~~~~~
+      |   RTC_TypeDef
+../Core/Src/main.cpp:735:3: error: 'RTC_DateTypeDef' was not declared in this scope; did you mean 'RTC_TypeDef'?
+  735 |   RTC_DateTypeDef sDate = {0};
+      |   ^~~~~~~~~~~~~~~
+      |   RTC_TypeDef
+../Core/Src/main.cpp:736:3: error: 'RTC_AlarmTypeDef' was not declared in this scope; did you mean 'RTC_TypeDef'?
+  736 |   RTC_AlarmTypeDef sAlarm = {0};
+      |   ^~~~~~~~~~~~~~~~
+      |   RTC_TypeDef
+../Core/Src/main.cpp:744:3: error: 'hrtc' was not declared in this scope
+  744 |   hrtc.Instance = RTC;
+      |   ^~~~
+../Core/Src/main.cpp:745:26: error: 'RTC_HOURFORMAT_24' was not declared in this scope
+  745 |   hrtc.Init.HourFormat = RTC_HOURFORMAT_24;
+      |                          ^~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:748:22: error: 'RTC_OUTPUT_DISABLE' was not declared in this scope
+  748 |   hrtc.Init.OutPut = RTC_OUTPUT_DISABLE;
+      |                      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:749:30: error: 'RTC_OUTPUT_POLARITY_HIGH' was not declared in this scope; did you mean 'PWR_PIN_POLARITY_HIGH'?
+  749 |   hrtc.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+      |                              ^~~~~~~~~~~~~~~~~~~~~~~~
+      |                              PWR_PIN_POLARITY_HIGH
+../Core/Src/main.cpp:750:26: error: 'RTC_OUTPUT_TYPE_OPENDRAIN' was not declared in this scope
+  750 |   hrtc.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:751:27: error: 'RTC_OUTPUT_REMAP_NONE' was not declared in this scope; did you mean 'RTC_OUTPUT_REMAP_PB2'?
+  751 |   hrtc.Init.OutPutRemap = RTC_OUTPUT_REMAP_NONE;
+      |                           ^~~~~~~~~~~~~~~~~~~~~
+      |                           RTC_OUTPUT_REMAP_PB2
+../Core/Src/main.cpp:752:7: error: 'HAL_RTC_Init' was not declared in this scope; did you mean 'MX_RTC_Init'?
+  752 |   if (HAL_RTC_Init(&hrtc) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       MX_RTC_Init
+../Core/Src/main.cpp:763:3: error: 'sTime' was not declared in this scope
+  763 |   sTime.Hours = 0x0;
+      |   ^~~~~
+../Core/Src/main.cpp:767:26: error: 'RTC_DAYLIGHTSAVING_NONE' was not declared in this scope
+  767 |   sTime.DayLightSaving = RTC_DAYLIGHTSAVING_NONE;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:768:26: error: 'RTC_STOREOPERATION_RESET' was not declared in this scope
+  768 |   sTime.StoreOperation = RTC_STOREOPERATION_RESET;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:769:38: error: 'RTC_FORMAT_BCD' was not declared in this scope; did you mean 'FORMAT_BCD'?
+  769 |   if (HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BCD) != HAL_OK)
+      |                                      ^~~~~~~~~~~~~~
+      |                                      FORMAT_BCD
+../Core/Src/main.cpp:769:7: error: 'HAL_RTC_SetTime' was not declared in this scope
+  769 |   if (HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BCD) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:773:3: error: 'sDate' was not declared in this scope
+  773 |   sDate.WeekDay = RTC_WEEKDAY_MONDAY;
+      |   ^~~~~
+../Core/Src/main.cpp:773:19: error: 'RTC_WEEKDAY_MONDAY' was not declared in this scope
+  773 |   sDate.WeekDay = RTC_WEEKDAY_MONDAY;
+      |                   ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:774:17: error: 'RTC_MONTH_JANUARY' was not declared in this scope
+  774 |   sDate.Month = RTC_MONTH_JANUARY;
+      |                 ^~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:777:38: error: 'RTC_FORMAT_BCD' was not declared in this scope; did you mean 'FORMAT_BCD'?
+  777 |   if (HAL_RTC_SetDate(&hrtc, &sDate, RTC_FORMAT_BCD) != HAL_OK)
+      |                                      ^~~~~~~~~~~~~~
+      |                                      FORMAT_BCD
+../Core/Src/main.cpp:777:7: error: 'HAL_RTC_SetDate' was not declared in this scope
+  777 |   if (HAL_RTC_SetDate(&hrtc, &sDate, RTC_FORMAT_BCD) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:784:3: error: 'sAlarm' was not declared in this scope
+  784 |   sAlarm.AlarmTime.Hours = 0x1;
+      |   ^~~~~~
+../Core/Src/main.cpp:790:22: error: 'RTC_ALARMMASK_NONE' was not declared in this scope
+  790 |   sAlarm.AlarmMask = RTC_ALARMMASK_NONE;
+      |                      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:791:31: error: 'RTC_ALARMSUBSECONDMASK_ALL' was not declared in this scope; did you mean 'RTC_ALARMSUBSECONDMASK_None'?
+  791 |   sAlarm.AlarmSubSecondMask = RTC_ALARMSUBSECONDMASK_ALL;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               RTC_ALARMSUBSECONDMASK_None
+../Core/Src/main.cpp:792:32: error: 'RTC_ALARMDATEWEEKDAYSEL_DATE' was not declared in this scope
+  792 |   sAlarm.AlarmDateWeekDaySel = RTC_ALARMDATEWEEKDAYSEL_DATE;
+      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:794:18: error: 'RTC_ALARM_A' was not declared in this scope; did you mean 'RTC_ALRMBR_PM'?
+  794 |   sAlarm.Alarm = RTC_ALARM_A;
+      |                  ^~~~~~~~~~~
+      |                  RTC_ALRMBR_PM
+../Core/Src/main.cpp:795:43: error: 'RTC_FORMAT_BCD' was not declared in this scope; did you mean 'FORMAT_BCD'?
+  795 |   if (HAL_RTC_SetAlarm_IT(&hrtc, &sAlarm, RTC_FORMAT_BCD) != HAL_OK)
+      |                                           ^~~~~~~~~~~~~~
+      |                                           FORMAT_BCD
+../Core/Src/main.cpp:795:7: error: 'HAL_RTC_SetAlarm_IT' was not declared in this scope; did you mean 'HAL_DMA_Start_IT'?
+  795 |   if (HAL_RTC_SetAlarm_IT(&hrtc, &sAlarm, RTC_FORMAT_BCD) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~
+      |       HAL_DMA_Start_IT
+../Core/Src/main.cpp: In function 'void MX_SPI1_Init()':
+../Core/Src/main.cpp:821:3: error: 'hspi1' was not declared in this scope
+  821 |   hspi1.Instance = SPI1;
+      |   ^~~~~
+../Core/Src/main.cpp:822:21: error: 'SPI_MODE_MASTER' was not declared in this scope
+  822 |   hspi1.Init.Mode = SPI_MODE_MASTER;
+      |                     ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:823:26: error: 'SPI_DIRECTION_2LINES' was not declared in this scope
+  823 |   hspi1.Init.Direction = SPI_DIRECTION_2LINES;
+      |                          ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:824:25: error: 'SPI_DATASIZE_10BIT' was not declared in this scope
+  824 |   hspi1.Init.DataSize = SPI_DATASIZE_10BIT;
+      |                         ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:825:28: error: 'SPI_POLARITY_LOW' was not declared in this scope; did you mean 'PWR_PIN_POLARITY_LOW'?
+  825 |   hspi1.Init.CLKPolarity = SPI_POLARITY_LOW;
+      |                            ^~~~~~~~~~~~~~~~
+      |                            PWR_PIN_POLARITY_LOW
+../Core/Src/main.cpp:826:25: error: 'SPI_PHASE_1EDGE' was not declared in this scope
+  826 |   hspi1.Init.CLKPhase = SPI_PHASE_1EDGE;
+      |                         ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:827:20: error: 'SPI_NSS_SOFT' was not declared in this scope
+  827 |   hspi1.Init.NSS = SPI_NSS_SOFT;
+      |                    ^~~~~~~~~~~~
+../Core/Src/main.cpp:828:34: error: 'SPI_BAUDRATEPRESCALER_2' was not declared in this scope
+  828 |   hspi1.Init.BaudRatePrescaler = SPI_BAUDRATEPRESCALER_2;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:829:25: error: 'SPI_FIRSTBIT_MSB' was not declared in this scope
+  829 |   hspi1.Init.FirstBit = SPI_FIRSTBIT_MSB;
+      |                         ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:830:23: error: 'SPI_TIMODE_DISABLE' was not declared in this scope; did you mean 'SPI_TIMODE_DISABLED'?
+  830 |   hspi1.Init.TIMode = SPI_TIMODE_DISABLE;
+      |                       ^~~~~~~~~~~~~~~~~~
+      |                       SPI_TIMODE_DISABLED
+../Core/Src/main.cpp:831:31: error: 'SPI_CRCCALCULATION_DISABLE' was not declared in this scope; did you mean 'SPI_CRCCALCULATION_DISABLED'?
+  831 |   hspi1.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               SPI_CRCCALCULATION_DISABLED
+../Core/Src/main.cpp:833:26: error: 'SPI_CRC_LENGTH_DATASIZE' was not declared in this scope
+  833 |   hspi1.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:834:25: error: 'SPI_NSS_PULSE_ENABLE' was not declared in this scope; did you mean 'SPI_NSS_PULSE_ENABLED'?
+  834 |   hspi1.Init.NSSPMode = SPI_NSS_PULSE_ENABLE;
+      |                         ^~~~~~~~~~~~~~~~~~~~
+      |                         SPI_NSS_PULSE_ENABLED
+../Core/Src/main.cpp:835:7: error: 'HAL_SPI_Init' was not declared in this scope; did you mean 'HAL_GPIO_Init'?
+  835 |   if (HAL_SPI_Init(&hspi1) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_GPIO_Init
+../Core/Src/main.cpp: In function 'void MX_SPI2_Init()':
+../Core/Src/main.cpp:861:3: error: 'hspi2' was not declared in this scope
+  861 |   hspi2.Instance = SPI2;
+      |   ^~~~~
+../Core/Src/main.cpp:862:21: error: 'SPI_MODE_SLAVE' was not declared in this scope
+  862 |   hspi2.Init.Mode = SPI_MODE_SLAVE;
+      |                     ^~~~~~~~~~~~~~
+../Core/Src/main.cpp:863:26: error: 'SPI_DIRECTION_2LINES' was not declared in this scope
+  863 |   hspi2.Init.Direction = SPI_DIRECTION_2LINES;
+      |                          ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:864:25: error: 'SPI_DATASIZE_4BIT' was not declared in this scope
+  864 |   hspi2.Init.DataSize = SPI_DATASIZE_4BIT;
+      |                         ^~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:865:28: error: 'SPI_POLARITY_LOW' was not declared in this scope; did you mean 'PWR_PIN_POLARITY_LOW'?
+  865 |   hspi2.Init.CLKPolarity = SPI_POLARITY_LOW;
+      |                            ^~~~~~~~~~~~~~~~
+      |                            PWR_PIN_POLARITY_LOW
+../Core/Src/main.cpp:866:25: error: 'SPI_PHASE_1EDGE' was not declared in this scope
+  866 |   hspi2.Init.CLKPhase = SPI_PHASE_1EDGE;
+      |                         ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:867:20: error: 'SPI_NSS_HARD_INPUT' was not declared in this scope
+  867 |   hspi2.Init.NSS = SPI_NSS_HARD_INPUT;
+      |                    ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:868:25: error: 'SPI_FIRSTBIT_MSB' was not declared in this scope
+  868 |   hspi2.Init.FirstBit = SPI_FIRSTBIT_MSB;
+      |                         ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:869:23: error: 'SPI_TIMODE_DISABLE' was not declared in this scope; did you mean 'SPI_TIMODE_DISABLED'?
+  869 |   hspi2.Init.TIMode = SPI_TIMODE_DISABLE;
+      |                       ^~~~~~~~~~~~~~~~~~
+      |                       SPI_TIMODE_DISABLED
+../Core/Src/main.cpp:870:31: error: 'SPI_CRCCALCULATION_DISABLE' was not declared in this scope; did you mean 'SPI_CRCCALCULATION_DISABLED'?
+  870 |   hspi2.Init.CRCCalculation = SPI_CRCCALCULATION_DISABLE;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                               SPI_CRCCALCULATION_DISABLED
+../Core/Src/main.cpp:872:26: error: 'SPI_CRC_LENGTH_DATASIZE' was not declared in this scope
+  872 |   hspi2.Init.CRCLength = SPI_CRC_LENGTH_DATASIZE;
+      |                          ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:873:25: error: 'SPI_NSS_PULSE_DISABLE' was not declared in this scope; did you mean 'SPI_NSS_PULSE_DISABLED'?
+  873 |   hspi2.Init.NSSPMode = SPI_NSS_PULSE_DISABLE;
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+      |                         SPI_NSS_PULSE_DISABLED
+../Core/Src/main.cpp:874:7: error: 'HAL_SPI_Init' was not declared in this scope; did you mean 'HAL_GPIO_Init'?
+  874 |   if (HAL_SPI_Init(&hspi2) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_GPIO_Init
+../Core/Src/main.cpp: In function 'void MX_TIM1_Init()':
+../Core/Src/main.cpp:896:3: error: 'TIM_SlaveConfigTypeDef' was not declared in this scope; did you mean 'EXTI_ConfigTypeDef'?
+  896 |   TIM_SlaveConfigTypeDef sSlaveConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+      |   EXTI_ConfigTypeDef
+../Core/Src/main.cpp:897:3: error: 'TIM_MasterConfigTypeDef' was not declared in this scope
+  897 |   TIM_MasterConfigTypeDef sMasterConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:902:3: error: 'htim1' was not declared in this scope
+  902 |   htim1.Instance = TIM1;
+      |   ^~~~~
+../Core/Src/main.cpp:904:28: error: 'TIM_COUNTERMODE_UP' was not declared in this scope
+  904 |   htim1.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |                            ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:906:30: error: 'TIM_CLOCKDIVISION_DIV1' was not declared in this scope
+  906 |   htim1.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:908:34: error: 'TIM_AUTORELOAD_PRELOAD_DISABLE' was not declared in this scope
+  908 |   htim1.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:909:7: error: 'HAL_TIM_Base_Init' was not declared in this scope
+  909 |   if (HAL_TIM_Base_Init(&htim1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:913:3: error: 'sSlaveConfig' was not declared in this scope
+  913 |   sSlaveConfig.SlaveMode = TIM_SLAVEMODE_EXTERNAL1;
+      |   ^~~~~~~~~~~~
+../Core/Src/main.cpp:913:28: error: 'TIM_SLAVEMODE_EXTERNAL1' was not declared in this scope
+  913 |   sSlaveConfig.SlaveMode = TIM_SLAVEMODE_EXTERNAL1;
+      |                            ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:914:31: error: 'TIM_TS_ITR2' was not declared in this scope
+  914 |   sSlaveConfig.InputTrigger = TIM_TS_ITR2;
+      |                               ^~~~~~~~~~~
+../Core/Src/main.cpp:915:7: error: 'HAL_TIM_SlaveConfigSynchro' was not declared in this scope
+  915 |   if (HAL_TIM_SlaveConfigSynchro(&htim1, &sSlaveConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:919:3: error: 'sMasterConfig' was not declared in this scope
+  919 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.cpp:919:39: error: 'TIM_TRGO_RESET' was not declared in this scope
+  919 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |                                       ^~~~~~~~~~~~~~
+../Core/Src/main.cpp:920:40: error: 'TIM_TRGO2_RESET' was not declared in this scope
+  920 |   sMasterConfig.MasterOutputTrigger2 = TIM_TRGO2_RESET;
+      |                                        ^~~~~~~~~~~~~~~
+../Core/Src/main.cpp:921:35: error: 'TIM_MASTERSLAVEMODE_DISABLE' was not declared in this scope
+  921 |   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:922:7: error: 'HAL_TIMEx_MasterConfigSynchronization' was not declared in this scope; did you mean 'LL_CRS_ConfigSynchronization'?
+  922 |   if (HAL_TIMEx_MasterConfigSynchronization(&htim1, &sMasterConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       LL_CRS_ConfigSynchronization
+../Core/Src/main.cpp: In function 'void MX_TIM2_Init()':
+../Core/Src/main.cpp:944:3: error: 'TIM_SlaveConfigTypeDef' was not declared in this scope; did you mean 'EXTI_ConfigTypeDef'?
+  944 |   TIM_SlaveConfigTypeDef sSlaveConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~
+      |   EXTI_ConfigTypeDef
+../Core/Src/main.cpp:945:3: error: 'TIM_MasterConfigTypeDef' was not declared in this scope
+  945 |   TIM_MasterConfigTypeDef sMasterConfig = {0};
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:950:3: error: 'htim2' was not declared in this scope
+  950 |   htim2.Instance = TIM2;
+      |   ^~~~~
+../Core/Src/main.cpp:952:28: error: 'TIM_COUNTERMODE_UP' was not declared in this scope
+  952 |   htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |                            ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:954:30: error: 'TIM_CLOCKDIVISION_DIV1' was not declared in this scope
+  954 |   htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+      |                              ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:955:34: error: 'TIM_AUTORELOAD_PRELOAD_DISABLE' was not declared in this scope
+  955 |   htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:956:7: error: 'HAL_TIM_Base_Init' was not declared in this scope
+  956 |   if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:960:3: error: 'sSlaveConfig' was not declared in this scope
+  960 |   sSlaveConfig.SlaveMode = TIM_SLAVEMODE_TRIGGER;
+      |   ^~~~~~~~~~~~
+../Core/Src/main.cpp:960:28: error: 'TIM_SLAVEMODE_TRIGGER' was not declared in this scope
+  960 |   sSlaveConfig.SlaveMode = TIM_SLAVEMODE_TRIGGER;
+      |                            ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:961:31: error: 'TIM_TS_ETRF' was not declared in this scope
+  961 |   sSlaveConfig.InputTrigger = TIM_TS_ETRF;
+      |                               ^~~~~~~~~~~
+../Core/Src/main.cpp:962:34: error: 'TIM_TRIGGERPOLARITY_NONINVERTED' was not declared in this scope
+  962 |   sSlaveConfig.TriggerPolarity = TIM_TRIGGERPOLARITY_NONINVERTED;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:963:35: error: 'TIM_TRIGGERPRESCALER_DIV1' was not declared in this scope
+  963 |   sSlaveConfig.TriggerPrescaler = TIM_TRIGGERPRESCALER_DIV1;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:965:7: error: 'HAL_TIM_SlaveConfigSynchro' was not declared in this scope
+  965 |   if (HAL_TIM_SlaveConfigSynchro(&htim2, &sSlaveConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:969:3: error: 'sMasterConfig' was not declared in this scope
+  969 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |   ^~~~~~~~~~~~~
+../Core/Src/main.cpp:969:39: error: 'TIM_TRGO_RESET' was not declared in this scope
+  969 |   sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+      |                                       ^~~~~~~~~~~~~~
+../Core/Src/main.cpp:970:35: error: 'TIM_MASTERSLAVEMODE_DISABLE' was not declared in this scope
+  970 |   sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:971:7: error: 'HAL_TIMEx_MasterConfigSynchronization' was not declared in this scope; did you mean 'LL_CRS_ConfigSynchronization'?
+  971 |   if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |       LL_CRS_ConfigSynchronization
+../Core/Src/main.cpp:975:37: error: 'TIM_TIM2_ETR_COMP1' was not declared in this scope
+  975 |   if (HAL_TIMEx_RemapConfig(&htim2, TIM_TIM2_ETR_COMP1) != HAL_OK)
+      |                                     ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:975:7: error: 'HAL_TIMEx_RemapConfig' was not declared in this scope
+  975 |   if (HAL_TIMEx_RemapConfig(&htim2, TIM_TIM2_ETR_COMP1) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp: In function 'void MX_TIM16_Init()':
+../Core/Src/main.cpp:1000:3: error: 'htim16' was not declared in this scope
+ 1000 |   htim16.Instance = TIM16;
+      |   ^~~~~~
+../Core/Src/main.cpp:1002:29: error: 'TIM_COUNTERMODE_UP' was not declared in this scope
+ 1002 |   htim16.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |                             ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1004:31: error: 'TIM_CLOCKDIVISION_DIV1' was not declared in this scope
+ 1004 |   htim16.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1006:35: error: 'TIM_AUTORELOAD_PRELOAD_ENABLE' was not declared in this scope
+ 1006 |   htim16.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_ENABLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1007:7: error: 'HAL_TIM_Base_Init' was not declared in this scope
+ 1007 |   if (HAL_TIM_Base_Init(&htim16) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp: In function 'void MX_TIM17_Init()':
+../Core/Src/main.cpp:1032:3: error: 'htim17' was not declared in this scope
+ 1032 |   htim17.Instance = TIM17;
+      |   ^~~~~~
+../Core/Src/main.cpp:1034:29: error: 'TIM_COUNTERMODE_UP' was not declared in this scope
+ 1034 |   htim17.Init.CounterMode = TIM_COUNTERMODE_UP;
+      |                             ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1036:31: error: 'TIM_CLOCKDIVISION_DIV1' was not declared in this scope
+ 1036 |   htim17.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+      |                               ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1038:35: error: 'TIM_AUTORELOAD_PRELOAD_DISABLE' was not declared in this scope
+ 1038 |   htim17.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1039:7: error: 'HAL_TIM_Base_Init' was not declared in this scope
+ 1039 |   if (HAL_TIM_Base_Init(&htim17) != HAL_OK)
+      |       ^~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp: In function 'void MX_USB_PCD_Init()':
+../Core/Src/main.cpp:1064:3: error: 'hpcd_USB_FS' was not declared in this scope
+ 1064 |   hpcd_USB_FS.Instance = USB;
+      |   ^~~~~~~~~~~
+../Core/Src/main.cpp:1066:28: error: 'PCD_SPEED_FULL' was not declared in this scope
+ 1066 |   hpcd_USB_FS.Init.speed = PCD_SPEED_FULL;
+      |                            ^~~~~~~~~~~~~~
+../Core/Src/main.cpp:1067:33: error: 'PCD_PHY_EMBEDDED' was not declared in this scope
+ 1067 |   hpcd_USB_FS.Init.phy_itface = PCD_PHY_EMBEDDED;
+      |                                 ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1072:7: error: 'HAL_PCD_Init' was not declared in this scope; did you mean 'HAL_DeInit'?
+ 1072 |   if (HAL_PCD_Init(&hpcd_USB_FS) != HAL_OK)
+      |       ^~~~~~~~~~~~
+      |       HAL_DeInit
+../Core/Src/main.cpp: In function 'void MX_WWDG_Init()':
+../Core/Src/main.cpp:1097:3: error: 'hwwdg' was not declared in this scope
+ 1097 |   hwwdg.Instance = WWDG;
+      |   ^~~~~
+../Core/Src/main.cpp:1098:26: error: 'WWDG_PRESCALER_1' was not declared in this scope
+ 1098 |   hwwdg.Init.Prescaler = WWDG_PRESCALER_1;
+      |                          ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1101:24: error: 'WWDG_EWI_DISABLE' was not declared in this scope
+ 1101 |   hwwdg.Init.EWIMode = WWDG_EWI_DISABLE;
+      |                        ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1102:7: error: 'HAL_WWDG_Init' was not declared in this scope; did you mean 'MX_WWDG_Init'?
+ 1102 |   if (HAL_WWDG_Init(&hwwdg) != HAL_OK)
+      |       ^~~~~~~~~~~~~
+      |       MX_WWDG_Init
+../Core/Src/main.cpp: In function 'void MX_GPIO_Init()':
+../Core/Src/main.cpp:1152:28: error: 'CS_DISP_Pin' was not declared in this scope
+ 1152 |   HAL_GPIO_WritePin(GPIOH, CS_DISP_Pin|GPIO_SELECT2_Pin, GPIO_PIN_RESET);
+      |                            ^~~~~~~~~~~
+../Core/Src/main.cpp:1152:40: error: 'GPIO_SELECT2_Pin' was not declared in this scope
+ 1152 |   HAL_GPIO_WritePin(GPIOH, CS_DISP_Pin|GPIO_SELECT2_Pin, GPIO_PIN_RESET);
+      |                                        ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1155:28: error: 'D_C_DISP_Pin' was not declared in this scope
+ 1155 |   HAL_GPIO_WritePin(GPIOC, D_C_DISP_Pin|RST_DISP_Pin, GPIO_PIN_RESET);
+      |                            ^~~~~~~~~~~~
+../Core/Src/main.cpp:1155:41: error: 'RST_DISP_Pin' was not declared in this scope
+ 1155 |   HAL_GPIO_WritePin(GPIOC, D_C_DISP_Pin|RST_DISP_Pin, GPIO_PIN_RESET);
+      |                                         ^~~~~~~~~~~~
+../Core/Src/main.cpp:1161:21: error: 'GPIO_SELECT1_GPIO_Port' was not declared in this scope
+ 1161 |   HAL_GPIO_WritePin(GPIO_SELECT1_GPIO_Port, GPIO_SELECT1_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1161:45: error: 'GPIO_SELECT1_Pin' was not declared in this scope
+ 1161 |   HAL_GPIO_WritePin(GPIO_SELECT1_GPIO_Port, GPIO_SELECT1_Pin, GPIO_PIN_RESET);
+      |                                             ^~~~~~~~~~~~~~~~
+../Core/Src/main.cpp:1170:25: error: 'TSC_G4_IO1_Pin' was not declared in this scope
+ 1170 |   GPIO_InitStruct.Pin = TSC_G4_IO1_Pin|TSC_G4_IO2_Pin;
+      |                         ^~~~~~~~~~~~~~
+../Core/Src/main.cpp:1170:40: error: 'TSC_G4_IO2_Pin' was not declared in this scope
+ 1170 |   GPIO_InitStruct.Pin = TSC_G4_IO1_Pin|TSC_G4_IO2_Pin;
+      |                                        ^~~~~~~~~~~~~~
+../Core/Src/main.cpp:1178:36: error: 'DRDY_Pin' was not declared in this scope
+ 1178 |   GPIO_InitStruct.Pin = GPIO_PIN_4|DRDY_Pin;
+      |                                    ^~~~~~~~
+../Core/Src/main.cpp:1190:25: error: 'SAI1_CK2_Pin' was not declared in this scope
+ 1190 |   GPIO_InitStruct.Pin = SAI1_CK2_Pin|SAI1_D2_Pin;
+      |                         ^~~~~~~~~~~~
+../Core/Src/main.cpp:1190:38: error: 'SAI1_D2_Pin' was not declared in this scope
+ 1190 |   GPIO_InitStruct.Pin = SAI1_CK2_Pin|SAI1_D2_Pin;
+      |                                      ^~~~~~~~~~~
+../Core/Src/main.cpp:1211:25: error: 'INT1_Pin' was not declared in this scope
+ 1211 |   GPIO_InitStruct.Pin = INT1_Pin|INT2_Pin;
+      |                         ^~~~~~~~
+../Core/Src/main.cpp:1211:34: error: 'INT2_Pin' was not declared in this scope
+ 1211 |   GPIO_InitStruct.Pin = INT1_Pin|INT2_Pin;
+      |                                  ^~~~~~~~
+../Core/Src/main.cpp:1237:25: error: 'TSC_G6_IO1_Pin' was not declared in this scope
+ 1237 |   GPIO_InitStruct.Pin = TSC_G6_IO1_Pin|TSC_G6_IO2_Pin;
+      |                         ^~~~~~~~~~~~~~
+../Core/Src/main.cpp:1237:40: error: 'TSC_G6_IO2_Pin' was not declared in this scope
+ 1237 |   GPIO_InitStruct.Pin = TSC_G6_IO1_Pin|TSC_G6_IO2_Pin;
+      |                                        ^~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+14:18:14 Build Failed. 251 errors, 0 warnings. (took 3s.743ms)
+

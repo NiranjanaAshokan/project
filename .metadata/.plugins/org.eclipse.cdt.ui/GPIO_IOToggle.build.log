@@ -1,0 +1,17 @@
+09:36:06 **** Incremental Build of configuration Debug for project GPIO_IOToggle ****
+make -j16 all 
+arm-none-eabi-gcc "C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_L5_V1.5.1/Projects/NUCLEO-L552ZE-Q/Examples/GPIO/GPIO_IOToggle/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L552xx -DDEBUG -c -I../../../../../../../Drivers/CMSIS/Device/ST/STM32L5xx/Include -I../../../../../../../Drivers/STM32L5xx_HAL_Driver/Inc/Legacy -I../../Inc -I../../../../../../../Drivers/STM32L5xx_HAL_Driver/Inc -I../../../../../../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Application/User/main.d" -MT"Application/User/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Application/User/main.o"
+arm-none-eabi-gcc -o "GPIO_IOToggle.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\niran.asokan\STM32Cube\Repository\STM32Cube_FW_L5_V1.5.1\Projects\NUCLEO-L552ZE-Q\Examples\GPIO\GPIO_IOToggle\STM32CubeIDE\STM32L552ZETXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="GPIO_IOToggle.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GPIO_IOToggle.elf
+ 
+arm-none-eabi-size   GPIO_IOToggle.elf 
+arm-none-eabi-objdump -h -S  GPIO_IOToggle.elf  > "GPIO_IOToggle.list"
+   text	   data	    bss	    dec	    hex	filename
+   7648	     32	   1568	   9248	   2420	GPIO_IOToggle.elf
+Finished building: default.size.stdout
+ 
+Finished building: GPIO_IOToggle.list
+ 
+
+09:36:08 Build Finished. 0 errors, 0 warnings. (took 1s.824ms)
+

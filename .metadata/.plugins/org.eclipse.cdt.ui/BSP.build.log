@@ -1,0 +1,429 @@
+14:00:35 **** Build of configuration Debug for project BSP ****
+make -j16 all 
+arm-none-eabi-g++ "C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/vl53l0x/vl53l0x_api_core.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_USB_FS -DUSE_HAL_DRIVER -DUSE_STM32WB5M_DK -DSTM32WB5Mxx -DARM_MATH_CM4 -DCORE_CM4 -DSTM32WB55xx -c -I../../Inc -I../../Src/vl53l0x -I../../../../../../Drivers/CMSIS/Include -I../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../../../../../Drivers/BSP/STM32WB5MM-DK -I../../../../../../Drivers/BSP/Components/Common -I../../../../../../Drivers/BSP/Components/ism330dhcx -I../../../../../../Drivers/BSP/Components/s25fl128s -I../../../../../../Utilities/LCD -I../../../../../../Middlewares/ST/STM32_Audio/Addons/PDM/Inc -I../../Inc/usb -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../../../../../Drivers/CMSIS/DSP/Source/FilteringFunctions -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc -I../../../../../../Drivers/CMSIS/DSP/Include -I../../../../../../Drivers/BSP/Components/stts22h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/vl53l0x/vl53l0x_api_core.d" -MT"Example/User/vl53l0x/vl53l0x_api_core.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/vl53l0x/vl53l0x_api_core.o"
+arm-none-eabi-g++ "C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_USB_FS -DUSE_HAL_DRIVER -DUSE_STM32WB5M_DK -DSTM32WB5Mxx -DARM_MATH_CM4 -DCORE_CM4 -DSTM32WB55xx -c -I../../Inc -I../../Src/vl53l0x -I../../../../../../Drivers/CMSIS/Include -I../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../../../../../Drivers/BSP/STM32WB5MM-DK -I../../../../../../Drivers/BSP/Components/Common -I../../../../../../Drivers/BSP/Components/ism330dhcx -I../../../../../../Drivers/BSP/Components/s25fl128s -I../../../../../../Utilities/LCD -I../../../../../../Middlewares/ST/STM32_Audio/Addons/PDM/Inc -I../../Inc/usb -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../../../../../Drivers/CMSIS/DSP/Source/FilteringFunctions -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc -I../../../../../../Drivers/CMSIS/DSP/Include -I../../../../../../Drivers/BSP/Components/stts22h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/usb/usbd_audio_if.d" -MT"Example/User/usb/usbd_audio_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/usb/usbd_audio_if.o"
+arm-none-eabi-g++ "C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_in.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_USB_FS -DUSE_HAL_DRIVER -DUSE_STM32WB5M_DK -DSTM32WB5Mxx -DARM_MATH_CM4 -DCORE_CM4 -DSTM32WB55xx -c -I../../Inc -I../../Src/vl53l0x -I../../../../../../Drivers/CMSIS/Include -I../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../../../../../Drivers/BSP/STM32WB5MM-DK -I../../../../../../Drivers/BSP/Components/Common -I../../../../../../Drivers/BSP/Components/ism330dhcx -I../../../../../../Drivers/BSP/Components/s25fl128s -I../../../../../../Utilities/LCD -I../../../../../../Middlewares/ST/STM32_Audio/Addons/PDM/Inc -I../../Inc/usb -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../../../../../Drivers/CMSIS/DSP/Source/FilteringFunctions -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc -I../../../../../../Drivers/CMSIS/DSP/Include -I../../../../../../Drivers/BSP/Components/stts22h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/usb/usbd_audio_in.d" -MT"Example/User/usb/usbd_audio_in.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/usb/usbd_audio_in.o"
+arm-none-eabi-g++ "C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_USB_FS -DUSE_HAL_DRIVER -DUSE_STM32WB5M_DK -DSTM32WB5Mxx -DARM_MATH_CM4 -DCORE_CM4 -DSTM32WB55xx -c -I../../Inc -I../../Src/vl53l0x -I../../../../../../Drivers/CMSIS/Include -I../../../../../../Drivers/CMSIS/Device/ST/STM32WBxx/Include -I../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc -I../../../../../../Drivers/BSP/STM32WB5MM-DK -I../../../../../../Drivers/BSP/Components/Common -I../../../../../../Drivers/BSP/Components/ism330dhcx -I../../../../../../Drivers/BSP/Components/s25fl128s -I../../../../../../Utilities/LCD -I../../../../../../Middlewares/ST/STM32_Audio/Addons/PDM/Inc -I../../Inc/usb -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../../../../../Drivers/CMSIS/DSP/Source/FilteringFunctions -I../../../../../../Middlewares/ST/STM32_USB_Device_Library/Class/AUDIO/Inc -I../../../../../../Drivers/CMSIS/DSP/Include -I../../../../../../Drivers/BSP/Components/stts22h -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Example/User/usb/usbd_conf.d" -MT"Example/User/usb/usbd_conf.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Example/User/usb/usbd_conf.o"
+make: *** No rule to make target 'C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/main.c', needed by 'Example/User/main.o'.  Stop.
+make: *** Waiting for unfinished jobs....
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+cc1plus.exe: warning: command-line option '-std=gnu11' is valid for C/ObjC but not for C++
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/vl53l0x/vl53l0x_api_core.c: In function 'VL53L0X_Error VL53L0X_calc_sigma_estimate(VL53L0X_DEV, VL53L0X_RangingMeasurementData_t*, FixPoint1616_t*, uint32_t*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/vl53l0x/vl53l0x_api_core.c:1896:47: error: call of overloaded 'abs(FixPoint1616_t)' is ambiguous
+ 1896 |   xTalkCorrection  = abs(diff1_mcps/diff2_mcps);
+      |                                               ^
+In file included from c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\cstdlib:75,
+                 from c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\stdlib.h:36,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/vl53l0x/vl53l0x_api_core.c:21:
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\stdlib.h:70:5: note: candidate: 'int abs(int)'
+   70 | int abs (int);
+      |     ^~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_in.c: In function 'uint8_t USBD_AUDIO_Init(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_in.c:176:47: error: invalid conversion from 'void*' to 'USBD_AUDIO_HandleTypeDef*' [-fpermissive]
+  176 |   haudio = pdev->pClassDataCmsit[pdev->classId];
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+      |                                               |
+      |                                               void*
+In file included from c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\cstdlib:77,
+                 from c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\stdlib.h:36,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/vl53l0x/vl53l0x_api_core.c:21:
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:79:3: note: candidate: 'constexpr long double std::abs(long double)'
+   79 |   abs(long double __x)
+      |   ^~~
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:75:3: note: candidate: 'constexpr float std::abs(float)'
+   75 |   abs(float __x)
+      |   ^~~
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:71:3: note: candidate: 'constexpr double std::abs(double)'
+   71 |   abs(double __x)
+      |   ^~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_in.c: In function 'uint8_t USBD_AUDIO_Data_Transfer(USBD_HandleTypeDef*, int16_t*, uint16_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_in.c:737:33: error: invalid conversion from 'void*' to 'uint8_t*' {aka 'unsigned char*'} [-fpermissive]
+  737 |     haudio->buffer = USBD_malloc(haudio->buffer_length + haudio->dataAmount);
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:61:3: note: candidate: 'long long int std::abs(long long int)'
+   61 |   abs(long long __x) { return __builtin_llabs (__x); }
+      |   ^~~
+c:\st\stm32cubeide_1.12.1\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.win32_1.0.200.202301161003\tools\arm-none-eabi\include\c++\10.3.1\bits\std_abs.h:56:3: note: candidate: 'long int std::abs(long int)'
+   56 |   abs(long __i) { return __builtin_labs(__i); }
+      |   ^~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_SetupStageCallback(PCD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:106:28: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  106 |   USBD_LL_SetupStage(hpcd->pData, (uint8_t *) hpcd->Setup);
+      |                      ~~~~~~^~~~~
+      |                            |
+      |                            void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:105:59: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef*, uint8_t*)'
+  105 | USBD_StatusTypeDef USBD_LL_SetupStage(USBD_HandleTypeDef *pdev, uint8_t *psetup);
+      |                                       ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_DataOutStageCallback(PCD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:117:30: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  117 |   USBD_LL_DataOutStage(hpcd->pData, epnum, hpcd->OUT_ep[epnum].xfer_buff);
+      |                        ~~~~~~^~~~~
+      |                              |
+      |                              void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:106:61: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_DataOutStage(USBD_HandleTypeDef*, uint8_t, uint8_t*)'
+  106 | USBD_StatusTypeDef USBD_LL_DataOutStage(USBD_HandleTypeDef *pdev, uint8_t epnum, uint8_t *pdata);
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_DataInStageCallback(PCD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:128:29: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  128 |   USBD_LL_DataInStage(hpcd->pData, epnum, hpcd->IN_ep[epnum].xfer_buff);
+      |                       ~~~~~~^~~~~
+      |                             |
+      |                             void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:107:60: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_DataInStage(USBD_HandleTypeDef*, uint8_t, uint8_t*)'
+  107 | USBD_StatusTypeDef USBD_LL_DataInStage(USBD_HandleTypeDef *pdev, uint8_t epnum, uint8_t *pdata);
+      |                                        ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_SOFCallback(PCD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:138:21: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  138 |   USBD_LL_SOF(hpcd->pData);
+      |               ~~~~~~^~~~~
+      |                     |
+      |                     void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:114:53: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_SOF(USBD_HandleTypeDef*)'
+  114 | USBD_StatusTypeDef USBD_LL_SOF(USBD_HandleTypeDef  *pdev);
+      |                                ~~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_ResetCallback(PCD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:149:23: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  149 |   USBD_LL_Reset(hpcd->pData);
+      |                 ~~~~~~^~~~~
+      |                       |
+      |                       void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:109:54: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef*)'
+  109 | USBD_StatusTypeDef USBD_LL_Reset(USBD_HandleTypeDef *pdev);
+      |                                  ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:152:26: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  152 |   USBD_LL_SetSpeed(hpcd->pData, USBD_SPEED_FULL);
+      |                    ~~~~~~^~~~~
+      |                          |
+      |                          void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:110:57: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_SetSpeed(USBD_HandleTypeDef*, USBD_SpeedTypeDef)'
+  110 | USBD_StatusTypeDef USBD_LL_SetSpeed(USBD_HandleTypeDef *pdev, USBD_SpeedTypeDef speed);
+      |                                     ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_SuspendCallback(PCD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:163:25: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  163 |   USBD_LL_Suspend(hpcd->pData);
+      |                   ~~~~~~^~~~~
+      |                         |
+      |                         void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:111:56: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_Suspend(USBD_HandleTypeDef*)'
+  111 | USBD_StatusTypeDef USBD_LL_Suspend(USBD_HandleTypeDef *pdev);
+      |                                    ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_ResumeCallback(PCD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:184:24: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  184 |   USBD_LL_Resume(hpcd->pData);
+      |                  ~~~~~~^~~~~
+      |                        |
+      |                        void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:112:55: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_Resume(USBD_HandleTypeDef*)'
+  112 | USBD_StatusTypeDef USBD_LL_Resume(USBD_HandleTypeDef *pdev);
+      |                                   ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_ISOOUTIncompleteCallback(PCD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:197:34: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  197 |   USBD_LL_IsoOUTIncomplete(hpcd->pData, epnum);
+      |                            ~~~~~~^~~~~
+      |                                  |
+      |                                  void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:116:65: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_IsoOUTIncomplete(USBD_HandleTypeDef*, uint8_t)'
+  116 | USBD_StatusTypeDef USBD_LL_IsoOUTIncomplete(USBD_HandleTypeDef *pdev, uint8_t epnum);
+      |                                             ~~~~~~~~~~~~~~~~~~~~^~~~
+make: *** [Example/User/usb/subdir.mk:30: Example/User/usb/usbd_audio_in.o] Error 1
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_ISOINIncompleteCallback(PCD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:208:33: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  208 |   USBD_LL_IsoINIncomplete(hpcd->pData, epnum);
+      |                           ~~~~~~^~~~~
+      |                                 |
+      |                                 void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:115:64: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_IsoINIncomplete(USBD_HandleTypeDef*, uint8_t)'
+  115 | USBD_StatusTypeDef USBD_LL_IsoINIncomplete(USBD_HandleTypeDef *pdev, uint8_t epnum);
+      |                                            ~~~~~~~~~~~~~~~~~~~~^~~~
+make: *** [Example/User/vl53l0x/subdir.mk:41: Example/User/vl53l0x/vl53l0x_api_core.o] Error 1
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_ConnectCallback(PCD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:218:30: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  218 |   USBD_LL_DevConnected(hpcd->pData);
+      |                        ~~~~~~^~~~~
+      |                              |
+      |                              void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:118:61: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_DevConnected(USBD_HandleTypeDef*)'
+  118 | USBD_StatusTypeDef USBD_LL_DevConnected(USBD_HandleTypeDef *pdev);
+      |                                         ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'void HAL_PCD_DisconnectCallback(PCD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:228:33: error: invalid conversion from 'void*' to 'USBD_HandleTypeDef*' {aka '_USBD_HandleTypeDef*'} [-fpermissive]
+  228 |   USBD_LL_DevDisconnected(hpcd->pData);
+      |                           ~~~~~~^~~~~
+      |                                 |
+      |                                 void*
+In file included from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:21:
+../../../../../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:119:64: note:   initializing argument 1 of 'USBD_StatusTypeDef USBD_LL_DevDisconnected(USBD_HandleTypeDef*)'
+  119 | USBD_StatusTypeDef USBD_LL_DevDisconnected(USBD_HandleTypeDef *pdev);
+      |                                            ~~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_Init(USBD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:255:29: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  255 |   HAL_PCDEx_PMAConfig(pdev->pData , 0x00 , PCD_SNG_BUF, 0x40);
+      |                       ~~~~~~^~~~~
+      |                             |
+      |                             void*
+In file included from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:147,
+                 from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h:51:59: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCDEx_PMAConfig(PCD_HandleTypeDef*, uint16_t, uint16_t, uint32_t)'
+   51 | HAL_StatusTypeDef  HAL_PCDEx_PMAConfig(PCD_HandleTypeDef *hpcd, uint16_t ep_addr,
+      |                                        ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:256:29: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  256 |   HAL_PCDEx_PMAConfig(pdev->pData , 0x80 , PCD_SNG_BUF, 0x80);
+      |                       ~~~~~~^~~~~
+      |                             |
+      |                             void*
+In file included from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:147,
+                 from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h:51:59: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCDEx_PMAConfig(PCD_HandleTypeDef*, uint16_t, uint16_t, uint32_t)'
+   51 | HAL_StatusTypeDef  HAL_PCDEx_PMAConfig(PCD_HandleTypeDef *hpcd, uint16_t ep_addr,
+      |                                        ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:257:29: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  257 |   HAL_PCDEx_PMAConfig(pdev->pData , 0x81 , PCD_DBL_BUF, 0x01C00120);
+      |                       ~~~~~~^~~~~
+      |                             |
+      |                             void*
+In file included from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:147,
+                 from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd_ex.h:51:59: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCDEx_PMAConfig(PCD_HandleTypeDef*, uint16_t, uint16_t, uint32_t)'
+   51 | HAL_StatusTypeDef  HAL_PCDEx_PMAConfig(PCD_HandleTypeDef *hpcd, uint16_t ep_addr,
+      |                                        ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_DeInit(USBD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:269:24: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  269 |   HAL_PCD_DeInit(pdev->pData);
+      |                  ~~~~~~^~~~~
+      |                        |
+      |                        void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:221:53: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_DeInit(PCD_HandleTypeDef*)'
+  221 | HAL_StatusTypeDef HAL_PCD_DeInit(PCD_HandleTypeDef *hpcd);
+      |                                  ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_Start(USBD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:280:23: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  280 |   HAL_PCD_Start(pdev->pData);
+      |                 ~~~~~~^~~~~
+      |                       |
+      |                       void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:305:52: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_Start(PCD_HandleTypeDef*)'
+  305 | HAL_StatusTypeDef HAL_PCD_Start(PCD_HandleTypeDef *hpcd);
+      |                                 ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_Stop(USBD_HandleTypeDef*)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:291:22: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  291 |   HAL_PCD_Stop(pdev->pData);
+      |                ~~~~~~^~~~~
+      |                      |
+      |                      void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:306:51: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_Stop(PCD_HandleTypeDef*)'
+  306 | HAL_StatusTypeDef HAL_PCD_Stop(PCD_HandleTypeDef *hpcd);
+      |                                ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_OpenEP(USBD_HandleTypeDef*, uint8_t, uint8_t, uint16_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:307:25: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  307 |   HAL_PCD_EP_Open(pdev->pData, ep_addr, ep_mps, ep_type);
+      |                   ~~~~~~^~~~~
+      |                         |
+      |                         void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:332:54: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_EP_Open(PCD_HandleTypeDef*, uint8_t, uint16_t, uint8_t)'
+  332 | HAL_StatusTypeDef HAL_PCD_EP_Open(PCD_HandleTypeDef *hpcd, uint8_t ep_addr, uint16_t ep_mps, uint8_t ep_type);
+      |                                   ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_CloseEP(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:320:26: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  320 |   HAL_PCD_EP_Close(pdev->pData, ep_addr);
+      |                    ~~~~~~^~~~~
+      |                          |
+      |                          void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:333:55: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_EP_Close(PCD_HandleTypeDef*, uint8_t)'
+  333 | HAL_StatusTypeDef HAL_PCD_EP_Close(PCD_HandleTypeDef *hpcd, uint8_t ep_addr);
+      |                                    ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_FlushEP(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:332:26: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  332 |   HAL_PCD_EP_Flush(pdev->pData, ep_addr);
+      |                    ~~~~~~^~~~~
+      |                          |
+      |                          void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:338:55: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_EP_Flush(PCD_HandleTypeDef*, uint8_t)'
+  338 | HAL_StatusTypeDef HAL_PCD_EP_Flush(PCD_HandleTypeDef *hpcd, uint8_t ep_addr);
+      |                                    ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_StallEP(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:344:29: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  344 |   HAL_PCD_EP_SetStall(pdev->pData, ep_addr);
+      |                       ~~~~~~^~~~~
+      |                             |
+      |                             void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:336:58: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_EP_SetStall(PCD_HandleTypeDef*, uint8_t)'
+  336 | HAL_StatusTypeDef HAL_PCD_EP_SetStall(PCD_HandleTypeDef *hpcd, uint8_t ep_addr);
+      |                                       ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_ClearStallEP(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:357:29: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  357 |   HAL_PCD_EP_ClrStall(pdev->pData, ep_addr);
+      |                       ~~~~~~^~~~~
+      |                             |
+      |                             void*
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:337:58: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_EP_ClrStall(PCD_HandleTypeDef*, uint8_t)'
+  337 | HAL_StatusTypeDef HAL_PCD_EP_ClrStall(PCD_HandleTypeDef *hpcd, uint8_t ep_addr);
+      |                                       ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '32768' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+   68 | 0x0000 };
+      |        ^
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '56288' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '57830' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'uint8_t USBD_LL_IsStallEP(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:369:35: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  369 |   PCD_HandleTypeDef *hpcd = pdev->pData;
+      |                             ~~~~~~^~~~~
+      |                                   |
+      |                                   void*
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '58731' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '59371' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '59867' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_SetUSBAddress(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:390:28: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  390 |   HAL_PCD_SetAddress(pdev->pData, dev_addr);
+      |                      ~~~~~~^~~~~
+      |                            |
+      |                            void*
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '60272' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:331:57: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_SetAddress(PCD_HandleTypeDef*, uint8_t)'
+  331 | HAL_StatusTypeDef HAL_PCD_SetAddress(PCD_HandleTypeDef *hpcd, uint8_t address);
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '60615' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '60912' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '61174' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_Transmit(USBD_HandleTypeDef*, uint8_t, uint8_t*, uint32_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:406:29: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  406 |   HAL_PCD_EP_Transmit(pdev->pData, ep_addr, pbuf, size);
+      |                       ~~~~~~^~~~~
+      |                             |
+      |                             void*
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '61408' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:335:58: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_EP_Transmit(PCD_HandleTypeDef*, uint8_t, uint8_t*, uint32_t)'
+  335 | HAL_StatusTypeDef HAL_PCD_EP_Transmit(PCD_HandleTypeDef *hpcd, uint8_t ep_addr, uint8_t *pBuf, uint32_t len);
+      |                                       ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '61620' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '61814' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '61992' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'USBD_StatusTypeDef USBD_LL_PrepareReceive(USBD_HandleTypeDef*, uint8_t, uint8_t*, uint32_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:422:28: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  422 |   HAL_PCD_EP_Receive(pdev->pData, ep_addr, pbuf, size);
+      |                      ~~~~~~^~~~~
+      |                            |
+      |                            void*
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '62157' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:334:57: note:   initializing argument 1 of 'HAL_StatusTypeDef HAL_PCD_EP_Receive(PCD_HandleTypeDef*, uint8_t, uint8_t*, uint32_t)'
+  334 | HAL_StatusTypeDef HAL_PCD_EP_Receive(PCD_HandleTypeDef *hpcd, uint8_t ep_addr, uint8_t *pBuf, uint32_t len);
+      |                                      ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '62310' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '62453' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '62588' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c: In function 'uint32_t USBD_LL_GetRxDataSize(USBD_HandleTypeDef*, uint8_t)':
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:434:38: error: invalid conversion from 'void*' to 'PCD_HandleTypeDef*' [-fpermissive]
+  434 |   return HAL_PCD_EP_GetRxCount(pdev->pData, ep_addr);
+      |                                ~~~~~~^~~~~
+      |                                      |
+      |                                      void*
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '62715' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+In file included from ../../Inc/stm32wbxx_hal_conf.h:269,
+                 from ../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal.h:29,
+                 from C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_conf.c:20:
+../../../../../../Drivers/STM32WBxx_HAL_Driver/Inc/stm32wbxx_hal_pcd.h:342:60: note:   initializing argument 1 of 'uint32_t HAL_PCD_EP_GetRxCount(PCD_HandleTypeDef*, uint8_t)'
+  342 | uint32_t          HAL_PCD_EP_GetRxCount(PCD_HandleTypeDef *hpcd, uint8_t ep_addr);
+      |                                         ~~~~~~~~~~~~~~~~~~~^~~~
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '62836' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '62950' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63058' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63162' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63260' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63352' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63446' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63533' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63617' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63698' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63776' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63851' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63924' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '63995' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64063' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64130' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64194' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64257' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64318' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64377' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64435' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64491' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64546' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64599' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64652' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64703' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64753' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64802' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64849' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64896' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64942' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '64987' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65031' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65074' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65117' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65158' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65199' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65239' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65280' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65317' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65355' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65392' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65429' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65465' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+C:/Users/niran.asokan/STM32Cube/Repository/STM32Cube_FW_WB_V1.16.0/Projects/STM32WB5MM-DK/Examples/BSP/Src/usb/usbd_audio_if.c:68:8: error: narrowing conversion of '65488' from 'int' to 'int16_t' {aka 'short int'} [-Wnarrowing]
+make: *** [Example/User/usb/subdir.mk:32: Example/User/usb/usbd_conf.o] Error 1
+make: *** [Example/User/usb/subdir.mk:28: Example/User/usb/usbd_audio_if.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+
+14:00:35 Build Failed. 101 errors, 0 warnings. (took 606ms)
+

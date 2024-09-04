@@ -1,0 +1,10 @@
+#include "stm32wbXX_hal.h"
+
+//class LED
+//
+//{
+//public:
+//explicit LED(void);
+//virtual ~LED(void);
+//void toggle(void);
+//};
