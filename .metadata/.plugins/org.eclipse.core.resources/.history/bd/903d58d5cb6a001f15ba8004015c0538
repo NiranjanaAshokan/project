@@ -49,13 +49,10 @@ RTC_HandleTypeDef hrtc;
 
 PCD_HandleTypeDef hpcd_USB_FS;
 
-/* USER CODE BEGIN PV */
-
 /* Task handles */
 osThreadId_t greenLedTaskHandle;
 osThreadId_t redLedTaskHandle;
 osThreadId_t blueLedTaskHandle;
-
 /* Definitions for defaultTask */
 const osThreadAttr_t greenLedTask_attributes = {
   .name = "greenLedTask",          // Thread name
@@ -90,58 +87,9 @@ const osThreadAttr_t blueLedTask_attributes = {
   .tz_module = 0,                 // TrustZone module (default: 0)
   .reserved = 0                   // Reserved (must be 0)
 };
+/* USER CODE BEGIN PV */
 
 
-class LED {
-private:
-    GPIO_TypeDef* port;   // GPIO port (e.g., GPIOA, GPIOB)
-    uint16_t pin;         // GPIO pin (e.g., GPIO_PIN_5)
-    uint32_t delay;       // Blinking delay in milliseconds
-
-public:
-    // Constructor to initialize the LED object
-    LED(GPIO_TypeDef* port, uint16_t pin, uint32_t delay)
-        : port(port), pin(pin), delay(delay) {}
-
-    // Method to initialize the GPIO pin for the LED
-    void init() {
-        GPIO_InitTypeDef GPIO_InitStruct = {0};
-
-        GPIO_InitStruct.Pin = pin;
-        GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-        GPIO_InitStruct.Pull = GPIO_NOPULL;
-        GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-        HAL_GPIO_Init(port, &GPIO_InitStruct);
-    }
-
-    // Method to turn on the LED
-    void on() {
-        HAL_GPIO_WritePin(port, pin, GPIO_PIN_SET);
-    }
-
-    // Method to turn off the LED
-    void off() {
-        HAL_GPIO_WritePin(port, pin, GPIO_PIN_RESET);
-    }
-
-    // Method to toggle the LED
-    void toggle() {
-        HAL_GPIO_TogglePin(port, pin);
-    }
-
-    // Method to return the delay
-    uint32_t getDelay() const {
-        return delay;
-    }
-
-    // Method to set a new delay
-    void setDelay(uint32_t new_delay) {
-        delay = new_delay;
-    }
-};
-LED greenLED(GPIOC, GPIO_PIN_7, 500);  // Replace GPIOA and GPIO_PIN_5 with actual values
-LED redLED(GPIOA, GPIO_PIN_9, 500);    // Replace GPIOB and GPIO_PIN_6 with actual values
-LED blueLED(GPIOB, GPIO_PIN_7, 500);  // Replace GPIOC and GPIO_PIN_7 with actual values
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -223,17 +171,15 @@ int main(void)
   /* USER CODE END RTOS_QUEUES */
 
   /* Create the thread(s) */
-  // Create LED objects
+  // Create the green LED blinky task
+     greenLedTaskHandle = osThreadNew(StartGreenLedTask, NULL, &greenLedTask_attributes);
 
-  // Initialize the LEDs
-     greenLED.init();
-     redLED.init();
-     blueLED.init();
+     // Create the red LED blinky task
+     redLedTaskHandle = osThreadNew(StartRedLedTask, NULL, &redLedTask_attributes);
 
-     // Create tasks and store their handles
-        greenLedTaskHandle = osThreadNew(StartGreenLedTask, &greenLED, nullptr);
-        redLedTaskHandle = osThreadNew(StartBlueLedTask, &redLED, nullptr);
-        blueLedTaskHandle = osThreadNew( StartRedLedTask, &blueLED, nullptr);
+     // Create the blue LED blinky task
+     blueLedTaskHandle = osThreadNew(StartBlueLedTask, NULL, &blueLedTask_attributes);
+
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
@@ -623,34 +569,31 @@ static void MX_GPIO_Init(void)
 /* Green LED Task */
 void StartGreenLedTask(void *argument)
 {
-	 LED* led = static_cast<LED*>(argument);  // Cast the argument to LED object
-
-	    for (;;) {
-	        led->toggle();          // Toggle the LED
-	        osDelay(led->getDelay());  // Delay based on the LED's delay
-	    }
+    for (;;)
+    {
+        HAL_GPIO_TogglePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin); // Toggle Green LED (PC7)
+        osDelay(500);                          // Delay for 500 ms
+    }
 }
 
 /* Red LED Task */
 void StartRedLedTask(void *argument)
 {
-	 LED* led = static_cast<LED*>(argument);  // Cast the argument to LED object
-
-	    for (;;) {
-	        led->toggle();          // Toggle the LED
-	        osDelay(led->getDelay());  // Delay based on the LED's delay
-	    }
+    for (;;)
+    {
+        HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin); // Toggle Red LED (PB14)
+        osDelay(700);                           // Delay for 700 ms
+    }
 }
 
 /* Blue LED Task */
 void StartBlueLedTask(void *argument)
 {
-	 LED* led = static_cast<LED*>(argument);  // Cast the argument to LED object
-
-	    for (;;) {
-	        led->toggle();          // Toggle the LED
-	        osDelay(led->getDelay());  // Delay based on the LED's delay
-	    }
+    for (;;)
+    {
+        HAL_GPIO_TogglePin(LED_BLUE_GPIO_Port, LED_BLUE_Pin); // Toggle Blue LED (PB7)
+        osDelay(1000);                         // Delay for 1 second
+    }
 }
 
 

@@ -140,8 +140,8 @@ public:
     }
 };
 LED greenLED(GPIOC, GPIO_PIN_7, 500);  // Replace GPIOA and GPIO_PIN_5 with actual values
-LED redLED(GPIOA, GPIO_PIN_9, 500);    // Replace GPIOB and GPIO_PIN_6 with actual values
-LED blueLED(GPIOB, GPIO_PIN_7, 500);  // Replace GPIOC and GPIO_PIN_7 with actual values
+LED redLED(GPIOA, GPIO_PIN_9, 700);    // Replace GPIOB and GPIO_PIN_6 with actual values
+LED blueLED(GPIOB, GPIO_PIN_7, 1000);  // Replace GPIOC and GPIO_PIN_7 with actual values
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/

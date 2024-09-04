@@ -55,7 +55,6 @@ PCD_HandleTypeDef hpcd_USB_FS;
 osThreadId_t greenLedTaskHandle;
 osThreadId_t redLedTaskHandle;
 osThreadId_t blueLedTaskHandle;
-
 /* Definitions for defaultTask */
 const osThreadAttr_t greenLedTask_attributes = {
   .name = "greenLedTask",          // Thread name
@@ -139,9 +138,7 @@ public:
         delay = new_delay;
     }
 };
-LED greenLED(GPIOC, GPIO_PIN_7, 500);  // Replace GPIOA and GPIO_PIN_5 with actual values
-LED redLED(GPIOA, GPIO_PIN_9, 500);    // Replace GPIOB and GPIO_PIN_6 with actual values
-LED blueLED(GPIOB, GPIO_PIN_7, 500);  // Replace GPIOC and GPIO_PIN_7 with actual values
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -224,16 +221,18 @@ int main(void)
 
   /* Create the thread(s) */
   // Create LED objects
-
+  LED greenLED(GPIOC, GPIO_PIN_7, 500);  // Replace GPIOA and GPIO_PIN_5 with actual values
+  LED redLED(GPIOA, GPIO_PIN_9, 700);    // Replace GPIOB and GPIO_PIN_6 with actual values
+  LED blueLED(GPIOB, GPIO_PIN_7, 1000);  // Replace GPIOC and GPIO_PIN_7 with actual values
   // Initialize the LEDs
      greenLED.init();
      redLED.init();
      blueLED.init();
 
-     // Create tasks and store their handles
-        greenLedTaskHandle = osThreadNew(StartGreenLedTask, &greenLED, nullptr);
-        redLedTaskHandle = osThreadNew(StartBlueLedTask, &redLED, nullptr);
-        blueLedTaskHandle = osThreadNew( StartRedLedTask, &blueLED, nullptr);
+     // Start tasks for each LED
+     osThreadNew(StartGreenLedTask, &greenLED, &greenLedTask_attributes);
+     osThreadNew(StartRedLedTask, &redLED, &redLedTask_attributes);
+     osThreadNew(StartBlueLedTask, &blueLED, &blueLedTask_attributes);
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
   /* USER CODE END RTOS_THREADS */
